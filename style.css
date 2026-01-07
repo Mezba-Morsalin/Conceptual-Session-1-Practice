@@ -36,6 +36,7 @@ body {
     transition: 0.3s ease-out;
 }
 /* Header Section Ended */
+
 .banner-section {
     margin-top: 30px;
     border-radius: 16px;
@@ -51,7 +52,7 @@ body {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
     margin-bottom: 20px;
 }
-.banner-info h1 {
+.banner-info h2 {
     font-size: 50px;
     font-weight: 700px;
     margin-bottom: 20px;
@@ -69,3 +70,36 @@ body {
     cursor: pointer;
 }
 /* Banner Section Ended */
+
+/* Pillar Section Started */
+.pillar-container-1 {
+    margin-top: 70px;
+}
+.pillar-container-1 h1 {
+    font-size: 40px;
+}
+.pillar-container-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pillar-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+}
+.pillar-card img {
+    margin-bottom: 20px;
+}
+.pillar-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.pillar-card p {
+    color: #474747;
+    font-size: 16px;
+}
+/* Pillar Section Ended*/
