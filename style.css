@@ -342,3 +342,55 @@ body {
     color: #474747;
 }
 /* News Section Ended */
+
+/* Donate Section Started */
+.donate-container-1 {
+    margin-top: 80px;
+    text-align: center;
+}
+.donate-container-1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.donate-container-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.donate-card {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 45px;
+    border-radius: 10px ;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+}
+.donate-card h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-color {
+    background-color: #C6E4D6;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+.donate-form {
+    margin-top: 30px;
+    padding:0 30px;
+    text-align: center;
+}
+.amount {
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #474747;
+}
+.amount::placeholder {
+    text-align: center;
+}
+/* Donate Section Ended */
