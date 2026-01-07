@@ -6,6 +6,7 @@
 }
 body {
     background-color: #F5F5F5;
+    height: 5000px;
 }
 .container {
     max-width: 1140px;
@@ -51,6 +52,7 @@ body {
     color: #474747;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
     margin-bottom: 20px;
+    line-height: 24px;
 }
 .banner-info h2 {
     font-size: 50px;
@@ -103,6 +105,7 @@ body {
 .pillar-card p {
     color: #474747;
     font-size: 16px;
+    line-height: 24px;
 }
 /* Pillar Section Ended*/
 
@@ -117,6 +120,7 @@ body {
 .card-container-1 p{
     font-size: 16px;
     color: #474747;
+    line-height: 24px;
 }
 .card-container-2 {
     margin-top: 40px;
@@ -153,6 +157,7 @@ body {
 .card1 p {
     color: #474747;
     font-size: 16px;
+    line-height: 24px;
 }
 .card2 img {
     margin-bottom: 20px;
@@ -166,6 +171,7 @@ body {
 .card2 p {
     color: #474747;
     font-size: 16px;
+    line-height: 24px;
 }
 .card3 img {
     margin-bottom: 20px;
@@ -179,6 +185,7 @@ body {
 .card3 p {
     color: #474747;
     font-size: 16px;
+    line-height: 24px;
 }
 .card-btn1 {
     background-color: #5490F5;
@@ -211,3 +218,27 @@ body {
     margin-top: 30px;
 }
 /* Card Section Ended */
+
+/* Quote Section Started */
+.quote-section {
+    margin-top: 30px;
+    background: #ffffff url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 20px top 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+}
+.quote-section p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.quote-section h3 {
+    font-size: 20px;
+    color: #0E0E0E;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+/* Quote Section Ended */
