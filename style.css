@@ -73,10 +73,11 @@ body {
 
 /* Pillar Section Started */
 .pillar-container-1 {
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .pillar-container-1 h1 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 .pillar-container-2 {
     margin-top: 40px;
@@ -85,6 +86,7 @@ body {
     gap: 20px;
 }
 .pillar-card {
+    width: 32%;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px ;
@@ -103,3 +105,109 @@ body {
     font-size: 16px;
 }
 /* Pillar Section Ended*/
+
+/* Card Section Started */
+.card-container-1 {
+    margin-top: 80px;
+}
+.card-container-1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.card-container-1 p{
+    font-size: 16px;
+    color: #474747;
+}
+.card-container-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    width: 32%;
+    background-color: #d5e1f5;
+    padding: 20px;
+    border-radius: 10px ;
+}
+.card2 {
+    width: 32%;
+    background-color: #c6e4d6;
+    padding: 20px;
+    border-radius: 10px ;
+}
+.card3 {
+    width: 32%;
+    background-color: #f7ebcf ;
+    padding: 20px;
+    border-radius: 10px ;
+}
+.card1 img {
+    margin-bottom: 20px;
+}
+.card1 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+}
+.card1 p {
+    color: #474747;
+    font-size: 16px;
+}
+.card2 img {
+    margin-bottom: 20px;
+}
+.card2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+}
+.card2 p {
+    color: #474747;
+    font-size: 16px;
+}
+.card3 img {
+    margin-bottom: 20px;
+}
+.card3 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+}
+.card3 p {
+    color: #474747;
+    font-size: 16px;
+}
+.card-btn1 {
+    background-color: #5490F5;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.card-btn2 {
+    background-color: #09A15C;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.card-btn3 {
+    background-color: #FFC239;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* Card Section Ended */
