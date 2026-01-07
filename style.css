@@ -394,3 +394,49 @@ body {
     text-align: center;
 }
 /* Donate Section Ended */
+
+/* Subscribe Section Started */
+.subscribe-section {
+    margin-top: 100px;
+    background-color: #c6e4d6;
+    padding: 80px 150px;
+    border-radius: 16px;
+}
+.subscribe-info {
+    text-align: center;
+     margin-bottom: 30px;
+}
+.subscribe-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.subscribe-info {
+    color: #474747;
+    font-size: 16px;
+}
+.email {
+    width: 85%;
+    padding: 16px 22px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+.sub-btn {
+    background-color: #006A50;
+    color: #ffffff;
+    padding:16px 24px;
+    border: none;
+    border-radius: 0 10px 10px 0px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.sub-p {
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Subscribe Section Ended */
