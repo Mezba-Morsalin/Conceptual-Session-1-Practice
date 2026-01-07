@@ -36,3 +36,36 @@ body {
     transition: 0.3s ease-out;
 }
 /* Header Section Ended */
+.banner-section {
+    margin-top: 30px;
+    border-radius: 16px;
+    padding: 50px;
+    background-color: #c6e4d6 ;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.banner-info p {
+    font-size: 24px;
+    color: #474747;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+}
+.banner-info h1 {
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.banner-img img {
+    width: 430px;
+}
+.btn {
+    background-color: #006A50;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Banner Section Ended */
